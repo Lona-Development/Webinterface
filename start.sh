@@ -1,0 +1,1 @@
+php artisan serve --host $(cat ./config.json | jq .host | sed "s/\"//" | sed "s/\"//") --port $(cat ./config.json | jq .port)

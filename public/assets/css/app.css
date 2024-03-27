@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+}
+
+@media (min-width: 800px) {
+    .main {
+        width: 65vw !important;
+        height: 65vh !important;
+        margin: auto !important;
+        overflow-y: scroll !important;
+        padding: 5vh !important;
+    }
+
+    .overflow {
+        text-overflow: ellipsis !important;
+        overflow-x: hidden !important;
+        width: 20vw !important;
+    }
+
+    .overflow-2 {
+        text-overflow: ellipsis !important;
+        overflow-x: hidden !important;
+    }
+
+    .login {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 55vh;
+        --bs-border-opacity: .5;
+    }
+}
+
+.mr-2 {
+    margin-right: .5rem !important;
+}
+
+.login {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35vh;
+    --bs-border-opacity: .5;
+}
+
+#createModal .modal-dialog .modal-body input:focus {
+    box-shadow: none;
+    border-color: white;
+}
+
+.right {
+    float: right;
+}
+
+.overflow {
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    width: 10vh;
+}
+
+.colorswitcher {
+    margin-right: 50px;
+}
+
+.overflow-2 {
+    text-overflow: ellipsis !important;
+    overflow-x: hidden !important;
+    width: 75vh;
+}
+
+.list-button i {
+    padding: 0;
+    margin-left: 0.2vh;
+    margin-right: 0.31vh;
+}
+
+.list-button span {
+    margin-right: 0.31vh;
+}
+
+.main {
+    width: 45vh;
+    height: 65vh;
+    margin: auto;
+    overflow-y: scroll;
+    padding: 5vh;
+}
+
+.main form button {
+    height: 4vh;
+}
+
+.table {
+    padding-bottom: 0.1vh;
+}
+
+.container form .login-input:focus {
+    box-shadow: none;
+    border-color: white;
+}

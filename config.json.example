@@ -1,0 +1,10 @@
+{
+    "host": "localhost",
+    "port": 8000,
+    "LonaDB": {
+        "host": "localhost",
+        "port": 4040,
+        "username": "root",
+        "password": "password"
+    }
+}
